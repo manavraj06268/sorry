@@ -98,7 +98,18 @@ html {
     width: 100%;
     font-size: 0.9rem;
   }
-  
+  #video-container {
+  text-align: center;
+  padding: 20px;
+}
+
+#video-container video {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
   /* heart container */
   
   #heart-container {
